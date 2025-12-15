@@ -32,7 +32,7 @@ function App() {
             method="POST"
             data-netlify="true"
             data-netlify-honeypot="secret-field"
-            action="/success/"
+            action="/success.html"
           >
             <input type="hidden" name="form-name" value="santa-wish" />
             <p className="sr-only">
