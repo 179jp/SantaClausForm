@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
@@ -12,7 +12,13 @@
     />
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <form name="santa-wish" netlify netlify-honeypot="bot-field" hidden>
+        <textarea name="gift"></textarea>
+        <textarea name="effort"></textarea>
+        <textarea name="happy"></textarea>
+      </form>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
