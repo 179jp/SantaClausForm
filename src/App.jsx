@@ -50,7 +50,7 @@ function App() {
               </p>
               <input
                 type="text"
-                name="gift"
+                name="欲しいプレゼント"
                 required
                 placeholder="例：漢字テスト特訓セット"
                 aria-describedby="gift-note"
@@ -60,7 +60,7 @@ function App() {
             <label className="field">
               <span className="label">今年がんばったこと</span>
               <textarea
-                name="effort"
+                name="今年がんばったこと"
                 rows="3"
                 required
                 placeholder="がんばったことをおしえてね"
@@ -70,7 +70,7 @@ function App() {
             <label className="field">
               <span className="label">今年一番うれしかったこと</span>
               <textarea
-                name="happy"
+                name="今年一番うれしかったこと"
                 rows="3"
                 required
                 placeholder="わくわくしたできごとをおしえてね"
