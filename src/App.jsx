@@ -31,7 +31,6 @@ function App() {
             name="santa-wish"
             method="POST"
             data-netlify="true"
-            data-netlify-honeypot="secret-field"
             action="/success.html"
           >
             <input type="hidden" name="form-name" value="santa-wish" />
