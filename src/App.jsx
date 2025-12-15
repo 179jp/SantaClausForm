@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const InfoBox = ({ title, children }) => (
   <div className="info-box">
@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="page">
       <header className="hero">
-        <p className="eyebrow">Santa Form</p>
+        <p className="eyebrow">Santa Claus ——— 2025</p>
         <h1>サンタさんへのおねがいフォーム</h1>
         <p className="subtitle">
-          ことしがんばったあなたに、サンタさんへおねがいごとをおくりましょう！
+          今年がんばったあなたに、サンタさんへおねがいごとをおくりましょう！
         </p>
       </header>
 
@@ -22,10 +22,9 @@ function App() {
         <section className="form-card">
           <div className="form-header">
             <div>
-              <p className="eyebrow">Netlify Form</p>
+              <p className="eyebrow">FORM for Japanese Kids</p>
               <h2>おねがいごとをかいてね</h2>
             </div>
-            <span className="badge">iPad にやさしいフォーム</span>
           </div>
 
           <form
@@ -46,13 +45,15 @@ function App() {
             <label className="field">
               <span className="label">欲しいプレゼント</span>
               <p className="note">
-                サンタクロースはなんでもあげれる訳ではありません。プレゼントはお父さん・お母さんと相談して、お二人が「いいよ」と言ったものを入力してください。
+                サンタクロースはなんでもあげれる訳ではありません。
+                <br />
+                プレゼントはお父さん・お母さんと相談して、お二人が「いいよ」と言ったものを入力してください。
               </p>
               <input
                 type="text"
                 name="gift"
                 required
-                placeholder="例：あたらしいえんぴつセット"
+                placeholder="例：漢字テスト特訓セット"
                 aria-describedby="gift-note"
               />
             </label>
@@ -79,15 +80,6 @@ function App() {
 
             <button type="submit">サンタさんへおくる</button>
           </form>
-        </section>
-
-        <section className="side-panel">
-          <InfoBox title="おねがいのポイント">
-            すなおなことばで、しっかりかきましょう。プレゼントはひとつだけ、だれかといっしょに考えてね。
-          </InfoBox>
-          <InfoBox title="送信後について">
-            送信すると「Thank you!!!」のページがひらきます。クリスマスまでの時間もたのしんでね。
-          </InfoBox>
         </section>
       </main>
     </div>
